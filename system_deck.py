@@ -6,17 +6,22 @@ app = Flask(__name__)
 # Define the desks with their names, URLs, and image URLs
 desks = {
     'Helpdesk NIT': {
-        'url': '/helpdesk',
+        'url': 'https://helpdesk.edu.azores.gov.pt',
         'image': 'static/images/helpdesk.png',  # Replace with actual image URL
     },
     'Gestão de Equipamentos': {
-        'url': '/material_management',
+        'url': 'http://127.0.0.1:5000/inventory',
         'image': 'static/images/gestao_material.png',  # Replace with actual image URL
     },
-    'IT Support': {
-        'url': '/it_support',
-        'image': 'https://via.placeholder.com/150?text=IT+Support',  # Replace with actual image URL
+    'Gestão de Bolsas de Ilha': {
+        'url': 'https://bolsas-ilha.azores.gov.pt/',
+        'image': 'static/images/bolsas.png',  # Replace with actual image URL
     },
+    'WIKI': {
+        'url': 'https://nit.edu.azores.gov.pt/',
+        'image': 'static/images/image.png',  # Replace with actual image URL
+    },
+
 }
 
 @app.route('/')
