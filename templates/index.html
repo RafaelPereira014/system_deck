@@ -60,17 +60,17 @@
         <!-- Logo Section -->
         <img src="static/images/NIT_logo.png" alt="Logo" class="logo"> <!-- Replace with your logo file name -->
 
-        <h1 class="text-center mb-4">Titulo</h1>
+        <h1 class="text-center mb-4">Sistema de Plataformas NIT</h1>
 
-        <!-- Introductory Text -->
+        <!-- Introductory Text 
         <p class="text-center">Texto introdutorio</p>
-
+        -->
         <div class="row justify-content-center">
             {% for desk_name, desk_info in desks.items() %}
             <div class="col-md-4 desk p-3">
                 <img src="{{ desk_info.image }}" alt="{{ desk_name }} Image">
                 <h3>{{ desk_name }}</h3>
-                <p>Descricao {{ desk_name | lower }}.</p>
+                <p>Ao clicar no botão abaixo , será redirecionado para a página: {{ desk_name | lower }}.</p>
                 <a class="btn btn-primary btn-lg" href="{{ desk_info.url }}" target="_blank">Ir para {{ desk_name }}</a>            
             </div>
             {% endfor %}
