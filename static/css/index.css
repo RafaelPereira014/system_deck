@@ -1,0 +1,46 @@
+body {
+    background-image: url('static/images/17973908.jpg'); /* Replace with your desired background image */
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    max-width: 200px; /* Adjust size as needed */
+    margin: 20px auto;
+    display: block;
+}
+.desk {
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+.desk:hover {
+    transform: scale(1.05);
+}
+.desk img {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.desk h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+.desk p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+.btn {
+    margin-bottom: 15px;
+}

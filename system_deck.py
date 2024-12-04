@@ -7,19 +7,19 @@ app = Flask(__name__)
 desks = {
     'Helpdesk NIT': {
         'url': 'https://helpdesk.edu.azores.gov.pt',
-        'image': 'static/images/helpdesk.png',  # Replace with actual image URL
+        'image': 'static/images/helpdesk.png', 
     },
     'Gestão de Equipamentos': {
-        'url': 'http://172.22.130.12:8081',
-        'image': 'static/images/gestao_material.png',  # Replace with actual image URL
-    },
-    'Gestão de Bolsas de Ilha': {
-        'url': 'https://bolsas-ilha.azores.gov.pt/',
-        'image': 'static/images/bolsas.png',  # Replace with actual image URL
+        'url': 'https://itcontrol.edu.azores.gov.pt',
+        'image': 'static/images/gestao_material.png',  
     },
     'WIKI': {
-        'url': 'https://nit.edu.azores.gov.pt/',
-        'image': 'static/images/image.png',  # Replace with actual image URL
+        'url': 'https://wiki.edu.azores.gov.pt/',
+        'image': 'static/images/image.png',  
+    },
+    'PassBolt': {
+        'url': 'https://nitpass.edu.azores.gov.pt',
+        'image': 'static/images/passbolt.png',  
     },
 
 }
