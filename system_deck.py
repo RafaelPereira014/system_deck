@@ -21,7 +21,7 @@ desks = {
         'url': 'https://nitpass.edu.azores.gov.pt',
         'image': 'static/images/passbolt.png',  
     },
-    'Grafana': {
+    'NMS': {
         'url': 'https://nms.edu.azores.gov.pt',
         'image': 'static/images/grafana.png',  
     },
