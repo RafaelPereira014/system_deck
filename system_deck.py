@@ -25,6 +25,10 @@ desks = {
         'url': 'https://nms.edu.azores.gov.pt',
         'image': 'static/images/grafana.png',  
     },
+    'API-EDU': {
+        'url': 'https://api.edu.azores.gov.pt',
+        'image': 'static/images/Introduction-to-APIs.png',  
+    },
 
 }
 
