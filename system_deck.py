@@ -18,7 +18,7 @@ desks = {
         'image': 'static/images/image.png',  
     },
     'PassBolt': {
-        'url': 'https://nitpass.edu.azores.gov.pt',
+        'url': 'https://172.22.130.13',
         'image': 'static/images/passbolt.png',  
     },
     'NMS': {
